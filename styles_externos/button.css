@@ -7,10 +7,10 @@
     background: transparent;
     padding: 0;
     cursor: pointer;
-    outline-offset: 4px;  /*A outline-offsetpropriedade adiciona espaço entre o contorno e a borda ou borda de um elemento. O espaço entre um elemento e seu contorno é transparente.Os contornos diferem das bordas de três maneiras: Um contorno é uma linha desenhada em torno de elementos, fora da borda da borda; Um contorno não ocupa espaço Um contorno pode ser não retangular */
-    transition: filter 250ms; /*A transition propriedade é uma propriedade abreviada para:propriedade de transição, duração da transição, função de tempo de transição, atraso de transição*/
-    user-select: none; /* A user-selectpropriedade especifica se o texto de um elemento pode ser selecionado. Nos navegadores da web, se você clicar duas vezes em algum texto, ele será selecionado/destacado. Essa propriedade pode ser usada para evitar isso.*/
-    touch-action: manipulation; /*A propriedade touch-action é uma especificação CSS , e forma, uma determinada região que pode ser manipulada pelo usuário através de uma tela sensível ao toque (por exemplo, recursos panorâmicos ou de zoom incorporados no navegador).*/
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
   }
   
   .shadow {
@@ -21,8 +21,8 @@
     height: 100%;
     border-radius: 12px;
     background: hsl(0deg 0% 0% / 0.25);
-    will-change: transform; /* A propriedade will-change do CSS fornece um modo dos autores dizerem aos navegadores sobre que tipo de mudanças devem ser esperadas no elemento, então o navegador pode fazer as otimizações apropriadas  com antecedência, antes do elemento ser efetivamente modificado.*/
-    transform: translateY(2px); /*A propriedade CSS transform permite modificar o espaço coordenado do modelo de formatação CSS. Usando-a, elementos podem ser traduzidos, rotacionados, ter seu tamanho ajustado e inclinados de acordo com os valores definidos.*/
+    will-change: transform;
+    transform: translateY(2px);
     transition: transform
       600ms
       cubic-bezier(.3, .7, .4, 1);
